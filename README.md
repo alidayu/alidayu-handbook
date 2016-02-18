@@ -4,6 +4,10 @@
 - 帮忙开发者完成第一条测试短信的发送
 - 帮助开发者解决日常开发中遇到的常见问题
 
+## 使用说明
+- 本手册源代码托管在[github](https://github.com/alidayu/alidayu-handbook)
+- 关于本手册使用过程中遇到的问题,欢迎提[issue](https://github.com/alidayu/alidayu-handbook/issues),我们会尽快完善并更新手册
+
 ## 快速阅读
 
 * [关于阿里大鱼](about/index.md)
@@ -11,6 +15,7 @@
   - [开发者入驻](start/developer-reg.md)
   - [创建应用](start/app-create.md)
   - [应用开发](start/app-develop.md)
+    - [发送一条测试短信](start/test-sms.md)
   - [测试&发布](start/app-publish.md)
 * [高级进阶使用](senior/index.md)
   - [模板管理](senior/tpl-manage.md)
@@ -23,3 +28,5 @@
   - [账号](help/account.md)
   - [短信](help/sms.md)
   - [语音](help/voice.md)
+  - [SDK](help/sdk.md)
+* [旺旺在线客服](help/service.md)
