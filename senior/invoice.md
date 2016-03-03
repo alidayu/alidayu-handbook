@@ -6,7 +6,8 @@
 - 发票只开具实际发生金额部分，代金券不能开发票。例如本月充值10000元，使用代金券10元，实际消费金额5000元，故次月10号后申请的发票金额是5000元。
 - 发票邮寄方式：`包邮寄送`
 
-## 1. 进入管理中心，点击开发票，进入账房系统（如未产生帐单，开发票按钮暂不展示）
+## 1. 进入`阿里大鱼>管理中心`，点击开发票，进入账房系统
+- 如未产生帐单，开发票按钮暂不展示
 
 [![Image](http://img.alicdn.com/tps/TB1FHFnKFXXXXbsXVXXXXXXXXXX-1436-721.png)](http://img.alicdn.com/tps/TB1FHFnKFXXXXbsXVXXXXXXXXXX-1436-721.png)
 
@@ -18,6 +19,7 @@
 
 [![Image](http://img.alicdn.com/tps/TB1N3bNIVXXXXXlXVXXXXXXXXXX-1440-429.png)](http://img.alicdn.com/tps/TB1N3bNIVXXXXXlXVXXXXXXXXXX-1440-429.png)
 
-## 4. 进入“发票管理—我申请的发票”未开发票账单中即可申请发票。选择“索取新发票”，业务类型选择阿里大鱼，选择您需要开票的月份
+## 4. 进入“发票管理—我申请的发票”未开发票账单中即可申请发票
+- 选择“索取新发票”，业务类型选择阿里大鱼，选择您需要开票的月份
 
 [![Image](http://img.alicdn.com/tps/TB1blvdJVXXXXaNXpXXXXXXXXXX-1440-460.png)](http://img.alicdn.com/tps/TB1blvdJVXXXXaNXpXXXXXXXXXX-1440-460.png)
