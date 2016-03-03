@@ -1,9 +1,9 @@
 ![阿里大鱼](http://img.alicdn.com/tps/TB1naG4KpXXXXcsXFXXXXXXXXXX-274-27.svg)
 
 # 阿里大鱼帮助手册
-- :envelope: 帮忙开发者完成第一条测试短信的发送
-- :computer: 帮助开发者解决日常开发中遇到的常见问题
-- :book: [**`开始阅读 (http://alidayu.github.io)`**](http://alidayu.github.io/alidayu-handbook/)
+- 帮助开发者完成第一条测试短信的发送
+- 帮助开发者解决日常开发中遇到的常见问题
+- [**`开始阅读 (http://alidayu.github.io)`**](http://alidayu.github.io/alidayu-handbook/)
 
 ## 使用说明
 - 本手册源代码托管在[github](https://github.com/alidayu/alidayu-handbook)
