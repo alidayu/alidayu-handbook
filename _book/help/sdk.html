@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>发送一条测试短信 | 阿里大鱼帮助手册</title>
+        <title>SDK | 阿里大鱼帮助手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="阿里大鱼">
         <meta name="keywords" content="阿里大鱼,帮助手册,短信,语音,验证码,短信验证码,alidayu,handbook,sms,message,voice">
@@ -20,10 +20,10 @@
         
     
     
-    <link rel="next" href="../start/app-publish.html" />
+    <link rel="next" href="../help/service.html" />
     
     
-    <link rel="prev" href="../start/app-develop.html" />
+    <link rel="prev" href="../help/voice.html" />
     
 
         
@@ -36,7 +36,7 @@
     
 
         
-    <div class="book" data-level="2.3.1" data-basepath=".." data-revision="1457328507486">
+    <div class="book" data-level="5.5" data-basepath=".." data-revision="1457328507486">
     
 
 <div class="book-summary">
@@ -150,7 +150,7 @@
                 
     
         
-        <li class="chapter active" data-level="2.3.1" data-path="start/test-sms.html">
+        <li class="chapter " data-level="2.3.1" data-path="start/test-sms.html">
             
                 
                     <a href="../start/test-sms.html">
@@ -403,7 +403,7 @@
         </li>
     
         
-        <li class="chapter " data-level="5.5" data-path="help/sdk.html">
+        <li class="chapter active" data-level="5.5" data-path="help/sdk.html">
             
                 
                     <a href="../help/sdk.html">
@@ -521,106 +521,15 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_22">
+                    <section class="normal" id="section-gitbook_7">
                     
-                        <h1 id="">发送第一条测试短信</h1>
-<h2 id="sdkapi">阿里大鱼SDK短信API调用代码示例</h2>
-<h3 id="">请求参数</h3>
-<ul>
-<li>详细请参见<a href="http://open.taobao.com/doc2/apiDetail?apiId=25450" target="_blank">阿里大鱼短信API-请求参数</a></li>
-</ul>
-<h3 id="">开发者请求示例</h3>
-<ul>
-<li>java</li>
-</ul>
-<pre><code class="lang-java"><span class="hljs-comment">//引入阿里大鱼SDK</span>
-<span class="hljs-keyword">import</span> com.taobao.api.DefaultTaobaoClient;
-<span class="hljs-keyword">import</span> com.taobao.api.request.AlibabaAliqinFcSmsNumSendRequest;
-<span class="hljs-keyword">import</span> com.taobao.api.request.AlibabaAliqinFcSmsNumSendResponse;
-
-<span class="hljs-comment">//请填写自己的app key,app secret</span>
-TaobaoClient client = <span class="hljs-keyword">new</span> DefaultTaobaoClient(url, <span class="hljs-string">"your_app_key"</span>, <span class="hljs-string">"your_app_secret"</span>);
-AlibabaAliqinFcSmsNumSendRequest req = <span class="hljs-keyword">new</span> AlibabaAliqinFcSmsNumSendRequest();
-
-req.setExtend(<span class="hljs-string">"123456"</span>);
-req.setSmsType(<span class="hljs-string">"normal"</span>);
-req.setSmsFreeSignName(<span class="hljs-string">"阿里大鱼"</span>);
-req.setSmsParamString(<span class="hljs-string">"{\"code\":\"888888\",\"product\":\"阿里大鱼(http://www.alidayu.com)\",\"item\":\"阿里大鱼\"}"</span>);
-<span class="hljs-comment">//请填写需要接收的手机号码</span>
-req.setRecNum(<span class="hljs-string">"13000000000"</span>);
-<span class="hljs-comment">//短信模板id</span>
-req.setSmsTemplateCode(<span class="hljs-string">"SMS_585014"</span>);
-
-AlibabaAliqinFcSmsNumSendResponse rsp = client.execute(req);
-
-System.out.println(rsp.getBody());
-</code></pre>
-<ul>
-<li>php</li>
-</ul>
-<pre><code class="lang-php"><span class="hljs-comment">//引入阿里大鱼SDK</span>
-<span class="hljs-keyword">include</span> <span class="hljs-string">"alidayu-openapi-php-sdk/TopSdk.php"</span>;
-
-<span class="hljs-variable">$c</span> = <span class="hljs-keyword">new</span> TopClient;
-<span class="hljs-comment">//请填写自己的app key</span>
-<span class="hljs-variable">$c</span>-&gt;appkey = <span class="hljs-string">"your_app_key"</span>;
-<span class="hljs-comment">//请填写自己的app secret</span>
-<span class="hljs-variable">$c</span>-&gt;secretKey = <span class="hljs-string">"your_app_secret"</span>;
-
-<span class="hljs-variable">$req</span> = <span class="hljs-keyword">new</span> AlibabaAliqinFcSmsNumSendRequest;
-<span class="hljs-variable">$req</span>-&gt;setExtend(<span class="hljs-string">"123456"</span>);
-<span class="hljs-variable">$req</span>-&gt;setSmsType(<span class="hljs-string">"normal"</span>);
-<span class="hljs-variable">$req</span>-&gt;setSmsFreeSignName(<span class="hljs-string">"阿里大鱼"</span>);
-<span class="hljs-variable">$req</span>-&gt;setSmsParam(<span class="hljs-string">"{\"code\": \"888888\", \"product\": \"阿里大鱼(http://www.alidayu.com)\"}"</span>);
-<span class="hljs-comment">//请填写需要接收的手机号码</span>
-<span class="hljs-variable">$req</span>-&gt;setRecNum(<span class="hljs-string">"your_phone_number"</span>);
-<span class="hljs-comment">//短信模板id</span>
-<span class="hljs-variable">$req</span>-&gt;setSmsTemplateCode(<span class="hljs-string">"SMS_645006"</span>);
-
-<span class="hljs-variable">$resp</span> = <span class="hljs-variable">$c</span>-&gt;execute(<span class="hljs-variable">$req</span>);
-</code></pre>
-<ul>
-<li>nodejs<ul>
-<li>待补充</li>
-</ul>
-</li>
-</ul>
-<h3 id="">阿里大鱼服务端返回示例</h3>
-<ul>
-<li>成功</li>
-</ul>
-<pre><code class="lang-js">{
-    <span class="hljs-string">"alibaba_aliqin_fc_sms_num_send_response"</span>:{
-        <span class="hljs-string">"result"</span>:{
-            <span class="hljs-string">"err_code"</span>:<span class="hljs-string">"0"</span>,
-            <span class="hljs-string">"model"</span>:<span class="hljs-string">"134523^4351232"</span>,
-            <span class="hljs-string">"success"</span>:<span class="hljs-literal">false</span>,
-            <span class="hljs-string">"msg"</span>:<span class="hljs-string">"成功"</span>
-        }
-    }
-}
-</code></pre>
-<ul>
-<li>失败</li>
-</ul>
-<pre><code class="lang-js">{
-    <span class="hljs-string">"error_response"</span>:{
-        <span class="hljs-string">"code"</span>:<span class="hljs-number">50</span>,
-        <span class="hljs-string">"msg"</span>:<span class="hljs-string">"Remote service error"</span>,
-        <span class="hljs-string">"sub_code"</span>:<span class="hljs-string">"isv.invalid-parameter"</span>,
-        <span class="hljs-string">"sub_msg"</span>:<span class="hljs-string">"非法参数"</span>
-    }
-}
-</code></pre>
-<h3 id="">错误码解释</h3>
-<ul>
-<li>详细请参见<a href="http://open.taobao.com/doc2/apiDetail?apiId=25450" target="_blank">阿里大鱼短信API-错误码解释</a></li>
-</ul>
-<h3 id="">常用开发工具</h3>
-<ul>
-<li><a href="http://open.taobao.com/apitools/apiTools.htm?catId=20711&amp;apiId=25450&amp;apiName=alibaba.aliqin.fc.sms.num.send&amp;scopeId=" target="_blank">API测试工具</a></li>
-<li><a href="http://open.taobao.com/apitools/errorCodeSearch" target="_blank">错误code查询</a></li>
-</ul>
+                        <h1 id="sdk">SDK</h1>
+<blockquote>
+<p>正在完成中,敬请期待!</p>
+</blockquote>
+<h3 id="java">java</h3>
+<h3 id="php">php</h3>
+<h3 id="nodejs">nodejs</h3>
 
                     
                     </section>
@@ -631,10 +540,10 @@ System.out.println(rsp.getBody());
         </div>
 
         
-        <a href="../start/app-develop.html" class="navigation navigation-prev " aria-label="Previous page: 应用开发"><i class="fa fa-angle-left"></i></a>
+        <a href="../help/voice.html" class="navigation navigation-prev " aria-label="Previous page: 语音"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../start/app-publish.html" class="navigation navigation-next " aria-label="Next page: 应用发布"><i class="fa fa-angle-right"></i></a>
+        <a href="../help/service.html" class="navigation navigation-next " aria-label="Next page: 旺旺在线客服"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

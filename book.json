@@ -1,0 +1,30 @@
+{
+	"introduction": {
+		"path": "README.md",
+		"title": "关于帮助手册"
+	},
+	"keywords": "阿里大鱼,帮助手册,短信,语音,验证码,短信验证码,alidayu,handbook,sms,message,voice",
+	"tail": {
+		"阿里大鱼": "http://www.alidayu.com",
+		"阿里通信": "http://aliqin.tmall.com"
+	},
+	"links": {
+		"sharing": {
+			"all": false,
+			"google": false,
+			"facebook": false,
+			"twitter": false,
+			"weibo": true,
+			"qq": true,
+			"qrcode": true
+		}
+	},
+	"plugins": [
+		"baiduana"
+	],
+	"pluginsConfig": {
+		"baidu": {
+			"token": "e9362ba71bb26d8efe5a1e09630b2ef3"
+		}
+	}
+}

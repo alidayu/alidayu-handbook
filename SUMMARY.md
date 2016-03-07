@@ -17,4 +17,5 @@
   - [账号](help/account.md)
   - [短信](help/sms.md)
   - [语音](help/voice.md)
+  - [SDK](help/sdk.md)
 * [旺旺在线客服](help/service.md)

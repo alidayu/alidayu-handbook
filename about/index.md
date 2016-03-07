@@ -3,7 +3,7 @@
 ![阿里大鱼](http://img.alicdn.com/tps/TB1GePdLFXXXXbdXFXXXXXXXXXX-1369-775.jpg)
 
 ## 关于阿里大鱼
-- [官方网站](http://www.alidayu.com/)
+- [官方网站 http://www.alidayu.com](http://www.alidayu.com)
 - 阿里大鱼专注阿里集团通信保障，同时面向开发者提供通信服务，诚邀您的[入驻](http://www.alidayu.com/join/1)
 - 入驻即送60元！
   1. 开发者百万资金扶持，送完即止
