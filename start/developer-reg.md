@@ -5,7 +5,7 @@
 
 **注意：您用支付宝/阿里云账号首次登录阿里大鱼平台时，需激活账号，设置会员名。激活成功后需要重新打开阿里大鱼网站，重新登陆，然后按提示完成入驻**
 
-[![Image](http://img.alicdn.com/tps/TB1Wc_aJVXXXXccXpXXXXXXXXXX-1439-718.png)](http://img.alicdn.com/tps/TB1Wc_aJVXXXXccXpXXXXXXXXXX-1439-718.png)
+[![Image](http://img.alicdn.com/tps/TB1heyMLVXXXXX9XXXXXXXXXXXX-1439-718.jpg)](http://img.alicdn.com/tps/TB1heyMLVXXXXX9XXXXXXXXXXXX-1439-718.jpg)
 
 ## 2. 通过支付宝实名认证
 - 若您的账号未经过支付宝实名认证，请根据提示完成认证。   

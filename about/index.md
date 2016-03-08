@@ -1,6 +1,6 @@
 ![阿里大鱼](http://img.alicdn.com/tps/TB1naG4KpXXXXcsXFXXXXXXXXXX-274-27.svg)
 
-![阿里大鱼](http://img.alicdn.com/tps/TB1GePdLFXXXXbdXFXXXXXXXXXX-1369-775.jpg)
+![阿里大鱼](http://img.alicdn.com/tps/TB1FTGnLVXXXXafaXXXXXXXXXXX-1369-775.jpg)
 
 ## 关于阿里大鱼
 - [官方网站 http://www.alidayu.com](http://www.alidayu.com)

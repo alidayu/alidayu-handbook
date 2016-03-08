@@ -13,20 +13,20 @@
 
 ### java 板本文件夹目录
 
-[![Image](http://img.alicdn.com/tps/TB1g996JVXXXXbPXFXXXXXXXXXX-1114-1384.png)](http://img.alicdn.com/tps/TB1g996JVXXXXbPXFXXXXXXXXXX-1114-1384.png)
+[![Image](http://img.alicdn.com/tps/TB1EaGDLVXXXXcuXFXXXXXXXXXX-1114-1384.jpg)](http://img.alicdn.com/tps/TB1EaGDLVXXXXcuXFXXXXXXXXXX-1114-1384.jpg)
 
 ### .NET板本文件夹目录
 
-[![Image](http://img.alicdn.com/tps/TB13aC8JVXXXXaPXFXXXXXXXXXX-918-1254.png)](http://img.alicdn.com/tps/TB13aC8JVXXXXaPXFXXXXXXXXXX-918-1254.png)
+[![Image](http://img.alicdn.com/tps/TB11tWxLVXXXXcwXVXXXXXXXXXX-918-1254.jpg)](http://img.alicdn.com/tps/TB11tWxLVXXXXcwXVXXXXXXXXXX-918-1254.jpg)
 
 ### PHP板本文件夹目录
 
-[![Image](http://img.alicdn.com/tps/TB1NcK_JVXXXXahXFXXXXXXXXXX-836-836.png)](http://img.alicdn.com/tps/TB1NcK_JVXXXXahXFXXXXXXXXXX-836-836.png)
+[![Image](http://img.alicdn.com/tps/TB176CPLVXXXXcYXXXXXXXXXXXX-836-836.jpg)](http://img.alicdn.com/tps/TB176CPLVXXXXcYXXXXXXXXXXXX-836-836.jpg)
 
 ### Python板本文件夹目录
 
-[![Image](http://img.alicdn.com/tps/TB1JxS6JVXXXXb.XFXXXXXXXXXX-856-918.png)](http://img.alicdn.com/tps/TB1JxS6JVXXXXb.XFXXXXXXXXXX-856-918.png)
+[![Image](http://img.alicdn.com/tps/TB1dgiPLVXXXXcnXXXXXXXXXXXX-856-918.jpg)](http://img.alicdn.com/tps/TB1dgiPLVXXXXcnXXXXXXXXXXXX-856-918.jpg)
 
 ## 4. 在API文档中查看调用示例与传参规则
 
-[![Image](http://img.alicdn.com/tps/TB1tpm.JVXXXXX9XFXXXXXXXXXX-1439-717.png)](http://img.alicdn.com/tps/TB1tpm.JVXXXXX9XFXXXXXXXXXX-1439-717.png)
+[![Image](http://img.alicdn.com/tps/TB1sISRLVXXXXbVXXXXXXXXXXXX-1439-717.jpg)](http://img.alicdn.com/tps/TB1sISRLVXXXXbVXXXXXXXXXXXX-1439-717.jpg)
