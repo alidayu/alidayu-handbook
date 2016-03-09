@@ -5,3 +5,5 @@
 - [账号](account.md)
 - [短信](sms.md)
 - [语音](voice.md)
+- [SDK](sdk.md)
+- [错误码](error-code.md)
