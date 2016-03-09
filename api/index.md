@@ -9,10 +9,10 @@
 关于API的**`请求参数、响应参数、请求示例、响应示例、异常示例、错误码解释`**可点击以下链接前往API文档中心查看。
 
 ### 短信
-- [短信发送](http://open.taobao.com/doc2/apiDetail?apiId=25450)
-- [短信发送记录](http://open.taobao.com/doc2/apiDetail.htm?apiId=26039)
+- [alibaba.aliqin.fc.sms.num.send 短信发送](http://open.taobao.com/doc2/apiDetail?apiId=25450)
+- [alibaba.aliqin.fc.sms.num.query 短信发送记录](http://open.taobao.com/doc2/apiDetail.htm?apiId=26039)
 
 ### 语音
-- [文本转语音通知](http://open.taobao.com/doc2/apiDetail?apiId=25444)
-- [语音通知](http://open.taobao.com/doc2/apiDetail?apiId=25445)
-- [多方通话](http://open.taobao.com/doc2/apiDetail?apiId=25443)
+- [alibaba.aliqin.fc.voice.num.singlecall 语音通知](http://open.taobao.com/doc2/apiDetail?apiId=25445)
+- [alibaba.aliqin.fc.tts.num.singlecall 文本转语音通知](http://open.taobao.com/doc2/apiDetail?apiId=25444)
+- [alibaba.aliqin.fc.voice.num.doublecall 多方通话](http://open.taobao.com/doc2/apiDetail?apiId=25443)
