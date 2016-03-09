@@ -3,7 +3,7 @@
 ## 阿里大鱼SDK短信API调用代码示例
 
 ### 请求参数
-- 详细请参见[阿里大鱼短信API-请求参数](http://open.taobao.com/doc2/apiDetail?apiId=25450)
+- 详细请参见[阿里大鱼短信API-请求参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s1)
 
 ### 开发者请求示例
 
@@ -93,8 +93,10 @@ $resp = $c->execute($req);
 }
 ```
 
+- 详细请参见[阿里大鱼短信API-响应参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s2)
+
 ### 错误码解释
-- 详细请参见[阿里大鱼短信API-错误码解释](http://open.taobao.com/doc2/apiDetail?apiId=25450)
+- 详细请参见[阿里大鱼短信API-错误码解释](http://open.taobao.com/doc2/apiDetail?apiId=25450#s6)
 
 ### 常用开发工具
 - [API测试工具](http://open.taobao.com/apitools/apiTools.htm?catId=20711&apiId=25450&apiName=alibaba.aliqin.fc.sms.num.send&scopeId=)

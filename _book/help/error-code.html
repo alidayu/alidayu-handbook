@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>API文档 | 阿里大鱼帮助手册</title>
+        <title>错误码 | 阿里大鱼帮助手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="阿里大鱼">
         <meta name="keywords" content="阿里大鱼,帮助手册,短信,语音,验证码,短信验证码,alidayu,handbook,sms,message,voice">
@@ -20,10 +20,10 @@
         
     
     
-    <link rel="next" href="../help/index.html" />
+    <link rel="next" href="../help/service.html" />
     
     
-    <link rel="prev" href="../senior/subscribe-interface-status.html" />
+    <link rel="prev" href="../help/sdk.html" />
     
 
         
@@ -36,7 +36,7 @@
     
 
         
-    <div class="book" data-level="4" data-basepath=".." data-revision="1457506563353">
+    <div class="book" data-level="5.6" data-basepath=".." data-revision="1457506563353">
     
 
 <div class="book-summary">
@@ -306,7 +306,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="4" data-path="api/index.html">
+        <li class="chapter " data-level="4" data-path="api/index.html">
             
                 
                     <a href="../api/index.html">
@@ -419,7 +419,7 @@
         </li>
     
         
-        <li class="chapter " data-level="5.6" data-path="help/error-code.html">
+        <li class="chapter active" data-level="5.6" data-path="help/error-code.html">
             
                 
                     <a href="../help/error-code.html">
@@ -537,21 +537,502 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3">
+                    <section class="normal" id="section-gitbook_5">
                     
-                        <h1 id="api">API文档</h1>
-<p>阿里大鱼携手淘宝开放平台，无门槛地向开发者提供简洁清晰的API接口、灵活轻便的SDK工具、助力开发者快速集成通信能力、完善产品服务。</p>
-<ul>
-<li>支持<strong>JAVA、.NET、PHP、Python、CURL、Nodejs</strong></li>
-<li>淘宝开放平台<a href="http://open.taobao.com/doc2/detail.htm?articleId=101618&amp;docType=1&amp;treeId=1" target="_blank">SDK与代码示例</a></li>
-</ul>
-<h2 id="api">阿里大鱼通信能力API详细使用说明</h2>
-<ul>
-<li><a href="http://open.taobao.com/doc2/apiDetail?apiId=25450" target="_blank">短信发送</a></li>
-<li><a href="http://open.taobao.com/doc2/apiDetail?apiId=25444" target="_blank">文本转语音通知</a></li>
-<li><a href="http://open.taobao.com/doc2/apiDetail?apiId=25445" target="_blank">语音通知</a></li>
-<li><a href="http://open.taobao.com/doc2/apiDetail?apiId=25443" target="_blank">多方通话</a></li>
-</ul>
+                        <h1 id="">错误码</h1>
+<h2 id="-sms">短信 SMS</h2>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>错误码</th>
+<th>错误描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>12</td>
+<td>空号</td>
+</tr>
+<tr>
+<td>2</td>
+<td>002</td>
+<td>已欠费停机</td>
+</tr>
+<tr>
+<td>3</td>
+<td>006</td>
+<td>黑名单</td>
+</tr>
+<tr>
+<td>4</td>
+<td>-103</td>
+<td>黑名单</td>
+</tr>
+<tr>
+<td>5</td>
+<td>024</td>
+<td>用户关机或无法接通</td>
+</tr>
+<tr>
+<td>6</td>
+<td>059</td>
+<td>关机</td>
+</tr>
+<tr>
+<td>7</td>
+<td>-131</td>
+<td>验证码发送频率过高</td>
+</tr>
+<tr>
+<td>8</td>
+<td>640</td>
+<td>空号</td>
+</tr>
+<tr>
+<td>9</td>
+<td>-1005</td>
+<td>敏感词拦截</td>
+</tr>
+<tr>
+<td>10</td>
+<td>DB:0141</td>
+<td>用户处于运营商黑名单</td>
+</tr>
+<tr>
+<td>11</td>
+<td>DB:0142</td>
+<td>超过日最大发送下发短信数量</td>
+</tr>
+<tr>
+<td>12</td>
+<td>mk:0010</td>
+<td>空号</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alibabaaliqinfcsmsnumsend-">alibaba.aliqin.fc.sms.num.send (短信发送)</h3>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误描述</th>
+<th>解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isv.OUT_OF_SERVICE</td>
+<td>业务停机</td>
+<td>登陆www.alidayu.com充值</td>
+</tr>
+<tr>
+<td>isv.PRODUCT_UNSUBSCRIBE</td>
+<td>产品服务未开通</td>
+<td>登陆www.alidayu.com开通相应的产品服务</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_NOT_EXISTS</td>
+<td>账户信息不存在</td>
+<td>登陆www.alidayu.com完成入驻</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_ABNORMAL</td>
+<td>账户信息异常</td>
+<td>联系技术支持</td>
+</tr>
+<tr>
+<td>isv.SMS_TEMPLATE_ILLEGAL</td>
+<td>模板不合法</td>
+<td>登陆www.alidayu.com查询审核通过短信模板使用</td>
+</tr>
+<tr>
+<td>isv.SMS_SIGNATURE_ILLEGAL</td>
+<td>签名不合法</td>
+<td>登陆www.alidayu.com查询审核通过的签名使用</td>
+</tr>
+<tr>
+<td>isv.MOBILE_NUMBER_ILLEGAL</td>
+<td>手机号码格式错误</td>
+<td>使用合法的手机号码</td>
+</tr>
+<tr>
+<td>isv.MOBILE_COUNT_OVER_LIMIT</td>
+<td>手机号码数量超过限制</td>
+<td>批量发送，手机号码以英文逗号分隔，不超过200个号码</td>
+</tr>
+<tr>
+<td>isv.TEMPLATE_MISSING_PARAMETERS</td>
+<td>短信模板变量缺少参数</td>
+<td>确认短信模板中变量个数，变量名，检查传参是否遗漏</td>
+</tr>
+<tr>
+<td>isv.INVALID_PARAMETERS</td>
+<td>参数异常</td>
+<td>检查参数是否合法</td>
+</tr>
+<tr>
+<td>isv.BUSINESS_LIMIT_CONTROL</td>
+<td>触发业务流控限制</td>
+<td>短信验证码，使用同一个签名，对同一个手机号码发送短信验证码，允许每分钟1条，累计每小时7条。 短信通知，使用同一签名、同一模板，对同一手机号发送短信通知，允许每天50条（自然日）。</td>
+</tr>
+<tr>
+<td>isv.INVALID_JSON_PARAM</td>
+<td>JSON参数不合法</td>
+<td>JSON参数接受字符串值。例如{&quot;code&quot;:&quot;123456&quot;}，不接收{&quot;code&quot;:123456}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alibabaaliqinfcsmsnumquery-">alibaba.aliqin.fc.sms.num.query (短信发送记录查询)</h3>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误描述</th>
+<th>解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isv.OUT_OF_SERVICE</td>
+<td>业务停机</td>
+<td>登陆www.alidayu.com 进入管理中心充值</td>
+</tr>
+<tr>
+<td>isv.MOBILE_NUMBER_ILLEGAL</td>
+<td>手机号码格式非法</td>
+<td>使用合法的手机号码</td>
+</tr>
+<tr>
+<td>isv.QUERY_DATE_ILLEGAL</td>
+<td>查询时间非法</td>
+<td>支持近30天记录查询。</td>
+</tr>
+<tr>
+<td>isv.SPLIT_PAGE_ILLEGAL</td>
+<td>分页参数不合法</td>
+<td>每页最大显示50条记录</td>
+</tr>
+<tr>
+<td>isv.INVALID_PARAMETERS</td>
+<td>参数异常</td>
+<td>检查参数合法性</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_NOT_EXISTS</td>
+<td>账户信息不存在</td>
+<td>入驻阿里大鱼</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-voice">语音 Voice</h2>
+<table>
+<thead>
+<tr>
+<th>状态值</th>
+<th>状态含义</th>
+<th>错误描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200000</td>
+<td>用户听完语音</td>
+<td>单呼时用户听完语音</td>
+</tr>
+<tr>
+<td>200001</td>
+<td>用户提前挂机未完整收听</td>
+<td>单呼时用户提前挂机，未完整收听语音</td>
+</tr>
+<tr>
+<td>200002</td>
+<td>用户占线</td>
+<td>单呼时指用户占线，双呼时指主叫占线</td>
+</tr>
+<tr>
+<td>200003</td>
+<td>用户收到呼叫但未接听</td>
+<td>单呼时指用户未接听，双呼时指主叫未接听</td>
+</tr>
+<tr>
+<td>200004</td>
+<td>用户号码不合法</td>
+<td>单呼时指用户号码不合法，双呼时指主叫号码不合法</td>
+</tr>
+<tr>
+<td>200005</td>
+<td>用户无法接通（拒绝）</td>
+<td>单呼时指用户无法接通，双呼时指主叫号码无法接通</td>
+</tr>
+<tr>
+<td>200006</td>
+<td>语音播放失败铃声格式有误</td>
+<td>单呼时，指语音格式错误</td>
+</tr>
+<tr>
+<td>200007</td>
+<td>用户无法接通（不在服务区）</td>
+<td>单呼时指用户无法接通，双呼时指主叫号码无法接通</td>
+</tr>
+<tr>
+<td>200008</td>
+<td>获取按键超时</td>
+<td></td>
+</tr>
+<tr>
+<td>200010</td>
+<td>关机</td>
+<td></td>
+</tr>
+<tr>
+<td>200011</td>
+<td>停机</td>
+<td></td>
+</tr>
+<tr>
+<td>200100</td>
+<td>呼叫结束（双呼）</td>
+<td>主被叫通话结束</td>
+</tr>
+<tr>
+<td>200101</td>
+<td>正在接通主叫</td>
+<td>正在接通主叫</td>
+</tr>
+<tr>
+<td>200102</td>
+<td>成功接通主叫，正在接通被叫</td>
+</tr>
+<tr>
+<td>200103</td>
+<td>呼叫建立，正在通话</td>
+<td>主被叫通话中</td>
+</tr>
+<tr>
+<td>200104</td>
+<td>主叫号码受限</td>
+<td>主叫号码受限</td>
+</tr>
+<tr>
+<td>200105</td>
+<td>被叫号码受限</td>
+<td>双呼时被叫号码受限</td>
+</tr>
+<tr>
+<td>200111</td>
+<td>被叫无法接通（拒绝）</td>
+<td>双呼时被叫无法接通（拒绝）</td>
+</tr>
+<tr>
+<td>200120</td>
+<td>被叫无法接通（不在服务区）</td>
+<td>双呼时被叫无法接通（不在服务区）</td>
+</tr>
+<tr>
+<td>200112</td>
+<td>被叫占线</td>
+<td>双呼时被叫占线</td>
+</tr>
+<tr>
+<td>200105</td>
+<td>被叫号码受限</td>
+<td>双呼时被叫号码受限</td>
+</tr>
+<tr>
+<td>200113</td>
+<td>被叫收到呼叫但未接听</td>
+<td>双呼时被叫收到呼叫但未接听</td>
+</tr>
+<tr>
+<td>200116</td>
+<td>被叫号码不合法</td>
+<td>双呼时被叫号码不合法</td>
+</tr>
+<tr>
+<td>200117</td>
+<td>来电显示号码不合法</td>
+<td></td>
+</tr>
+<tr>
+<td>9996</td>
+<td>呼叫未建立或者呼叫已结束（apus）</td>
+<td>查询或终止呼叫时可能返回呼叫未建立或者呼叫已结束（apus）</td>
+</tr>
+<tr>
+<td>999999</td>
+<td>系统错误</td>
+<td></td>
+</tr>
+<tr>
+<td>500</td>
+<td>运营商错误</td>
+<td></td>
+</tr>
+<tr>
+<td>400</td>
+<td>网元繁忙</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alibabaaliqinfcvoicenumsinglecall-">alibaba.aliqin.fc.voice.num.singlecall (语音通知)</h2>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误描述</th>
+<th>解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isv.OUT_OF_SERVICE</td>
+<td>业务停机</td>
+<td>登陆www.alidayu.com充值</td>
+</tr>
+<tr>
+<td>isv.PRODUCT_UNSUBSCRIBE</td>
+<td>产品服务未开通</td>
+<td>登陆www.alidayu.com开通相应产品服务</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_NOT_EXISTS</td>
+<td>账户信息不存在</td>
+<td>登陆www.alidayu.com完成入驻</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_ABNORMAL</td>
+<td>账户信息异常</td>
+<td>联系技术支持</td>
+</tr>
+<tr>
+<td>isv.VOICE_FILE_ILLEGAL</td>
+<td>语音文件不合法</td>
+<td>登陆www.alidayu.com查询审核通过的合法语音文件使用</td>
+</tr>
+<tr>
+<td>isv.DISPLAY_NUMBER_ILLEGAL</td>
+<td>号显不合法</td>
+<td>登陆www.alidayu.com查看合法的号显使用</td>
+</tr>
+<tr>
+<td>isv.MOBILE_NUMBER_ILLEGAL</td>
+<td>手机号码格式错误</td>
+<td>使用合法的手机号</td>
+</tr>
+<tr>
+<td>isv.INVALID_PARAMETERS</td>
+<td>参数异常</td>
+<td>检查参数合法性</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alibabaaliqinfcttsnumsinglecall-">alibaba.aliqin.fc.tts.num.singlecall (文本转语音通知)</h2>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误描述</th>
+<th>解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isv.OUT_OF_SERVICE</td>
+<td>业务停机</td>
+<td>请登录阿里大鱼充值</td>
+</tr>
+<tr>
+<td>isv.PRODUCT_UNSUBSCRIBE</td>
+<td>未开通产品服务</td>
+<td>请登录阿里大鱼开通相应产品服务</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_NOT_EXISTS</td>
+<td>账户信息不存在</td>
+<td>请登录阿里大鱼完成入驻</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_ABNORMAL</td>
+<td>账户信息异常</td>
+<td>请联系技术支持</td>
+</tr>
+<tr>
+<td>isv.MOBILE_NUMBER_ILLEGAL</td>
+<td>手机号码格式不合法</td>
+<td>请使用合法的手机号码</td>
+</tr>
+<tr>
+<td>isv.TTS_TEMPLATE_ILLEGAL</td>
+<td>文本转语音模板不合法</td>
+<td>请使用合法的文本转语音模板。登录www.alidayu.com查看已审核通过的文本转语音模板。</td>
+</tr>
+<tr>
+<td>isv.DISPLAY_NUMBER_ILLEGAL</td>
+<td>号显不合法</td>
+<td>请使用合法的号显。登录www.alidayu.com查询已审核通过的号码</td>
+</tr>
+<tr>
+<td>isv.TEMPLATE_MISSING_PARAMETERS</td>
+<td>文本转语音模板参数缺失</td>
+<td>登录www.alidayu.com查询文本转语音模板，检查模板参数是否漏传。</td>
+</tr>
+<tr>
+<td>isv.INVALID_PARAMETERS</td>
+<td>参数异常</td>
+<td>请检查入参是否合法</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alibabaaliqinfcvoicenumdoublecall-">alibaba.aliqin.fc.voice.num.doublecall (多方通话)</h2>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误描述</th>
+<th>解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isv.OUT_OF_SERVICE</td>
+<td>业务停机</td>
+<td>登陆www.alidayu.com充值</td>
+</tr>
+<tr>
+<td>isv.PRODUCT_UNSUBSCRIBE</td>
+<td>产品服务未开通</td>
+<td>登陆www.alidayu.com开通相应的产品服务</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_NOT_EXISTS</td>
+<td>账户信息不存在</td>
+<td>登陆www.alidayu.com完成入驻</td>
+</tr>
+<tr>
+<td>isv.ACCOUNT_ABNORMAL</td>
+<td>账户信息异常</td>
+<td>联系技术支持</td>
+</tr>
+<tr>
+<td>isv.MOBILE_NUMBER_ILLEGAL</td>
+<td>手机号码不合法</td>
+<td>使用合法的手机号码</td>
+</tr>
+<tr>
+<td>isv.DISPLAY_NUMBER_ILLEGAL</td>
+<td>号显不合法</td>
+<td>使用合法的号显</td>
+</tr>
+<tr>
+<td>isv.INVALID_PARAMETERS</td>
+<td>参数异常</td>
+<td>检查参数是否合法</td>
+</tr>
+</tbody>
+</table>
 
                     
                     </section>
@@ -562,10 +1043,10 @@
         </div>
 
         
-        <a href="../senior/subscribe-interface-status.html" class="navigation navigation-prev " aria-label="Previous page: 订阅API返回状态"><i class="fa fa-angle-left"></i></a>
+        <a href="../help/sdk.html" class="navigation navigation-prev " aria-label="Previous page: SDK"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../help/index.html" class="navigation navigation-next " aria-label="Next page: 常见问题"><i class="fa fa-angle-right"></i></a>
+        <a href="../help/service.html" class="navigation navigation-next " aria-label="Next page: 旺旺在线客服"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
