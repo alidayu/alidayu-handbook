@@ -1,17 +1,23 @@
 ![阿里大鱼](http://img.alicdn.com/tps/TB1naG4KpXXXXcsXFXXXXXXXXXX-274-27.svg)
 
-# 阿里大鱼帮助手册
+# 阿里大鱼帮助手册 Alidayu Handbook
 
 > 《阿里大鱼帮助手册》在线阅读地址：<http://g.alicdn.com/alidayu/handbook/index.html>
 
 - 帮助开发者完成第一条测试短信的发送
 - 帮助开发者解决日常开发中遇到的常见问题
 
-## 使用说明
+## 使用说明 Guide
 - 本手册源代码托管在[github](https://github.com/alidayu/alidayu-handbook)
 - 关于本手册使用过程中遇到的问题,欢迎提[issue](https://github.com/alidayu/alidayu-handbook/issues),我们会尽快完善并更新手册
 
-## 快速阅读
+## 手册开发 Develop
+- 为支持中文搜索,本手册基于<https://github.com/codepiano/gitbook> gitbook cli开发,非基于官方gitbook
+- 目前引入的插件支持
+  - 文档树导航: [gitbook-plugin-anchor-navigation](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation)
+  - 百度统计: [gitbook-plugin-baiduana](https://www.npmjs.com/package/gitbook-plugin-baiduana)
+
+## 快速阅读 Quick Start
 
 * [关于阿里大鱼](about/index.md)
 * [快速开始](start/index.md)

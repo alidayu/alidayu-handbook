@@ -1,8 +1,8 @@
-# 管理中心
+# 管理中心 Manage
 
 阿里大鱼[管理中心](http://www.alidayu.com/admin/user/account)主要为开发者提供以下功能
 
-### 用户中心
+## 用户中心 User
 - [账户管理](http://www.alidayu.com/admin/user/account)
   - 查询账户余额、代金券余额
   - [充值](charge.md)
@@ -13,21 +13,21 @@
 - [消息中心](http://www.alidayu.com/admin/user/message)
   - 阅读、管理（删除、标记为已读）系统消息（如短信签名审批结果等）
   
-### 服务管理
-#### 短信
+## 服务管理 Service Manage
+### 短信 Sms
 - [短信签名管理](http://www.alidayu.com/admin/service/sign)
   - 添加、删除短信签名  
 - [短信模板管理](http://www.alidayu.com/admin/service/tpl)
   - 添加、删除短信模板
 
-#### 语音
+### 语音 Voice
 - [语音号码管理](http://www.alidayu.com/admin/service/num)
 - [语音文件管理](http://www.alidayu.com/admin/service/audio)
   - 上传、删除语音文件
 - [文件转语音模板管理](http://www.alidayu.com/admin/service/tts)
   - 添加、删除文本转语音模板
   
-### 业务统计
+## 业务统计 Statistics
 - [语音短信统计](http://www.alidayu.com/admin/business/statistics)
   - 查询短信每天、最近7天、最近30天、自定义时间区间的使用情况
   - 查询语音单呼、语音双呼每天、最近7天、最近30天、自定义时间区间的使用情况

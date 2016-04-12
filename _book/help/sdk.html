@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>SDK | 阿里大鱼帮助手册</title>
+        <title>SDK | 阿里大鱼帮助手册 Alidayu Handbook</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="阿里大鱼">
         <meta name="keywords" content="阿里大鱼,帮助手册,短信,语音,验证码,短信验证码,alidayu,handbook,sms,message,voice">
@@ -33,10 +33,14 @@
         
     <link rel="stylesheet" href="../gitbook/style.css">
     
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-anchor-navigation/plugin.css">
+        
+    
     
 
         
-    <div class="book" data-level="5.5" data-basepath=".." data-revision="1457508241840">
+    <div class="book" data-level="5.5" data-basepath=".." data-revision="1460454110905">
     
 
 <div class="book-summary">
@@ -529,7 +533,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" >阿里大鱼帮助手册</a>
+        <a href="../" >阿里大鱼帮助手册 Alidayu Handbook</a>
     </h1>
 </div>
 
@@ -541,33 +545,33 @@
                     
                         <h1 id="sdk">SDK</h1>
 <blockquote>
-<p>持续更新中</p>
+<p>&#x6301;&#x7EED;&#x66F4;&#x65B0;&#x4E2D;</p>
 </blockquote>
-<h2 id="java-sdk">java sdk常见问题</h2>
-<h3 id="taobaoclient">短信发送接口：无法在创建<code>TaobaoClient</code>对象的时候设置返回参数格式？</h3>
+<h2 id="java-sdk">java sdk&#x5E38;&#x89C1;&#x95EE;&#x9898;</h2>
+<h3 id="taobaoclient">&#x77ED;&#x4FE1;&#x53D1;&#x9001;&#x63A5;&#x53E3;&#xFF1A;&#x65E0;&#x6CD5;&#x5728;&#x521B;&#x5EFA;<code>TaobaoClient</code>&#x5BF9;&#x8C61;&#x7684;&#x65F6;&#x5019;&#x8BBE;&#x7F6E;&#x8FD4;&#x56DE;&#x53C2;&#x6570;&#x683C;&#x5F0F;&#xFF1F;</h3>
 <ul>
-<li>缺少<code>common-logging</code>工具包</li>
+<li>&#x7F3A;&#x5C11;<code>common-logging</code>&#x5DE5;&#x5177;&#x5305;</li>
 </ul>
 <pre><code>TaobaoClient client = new DefaultTaobaoClient(url, appkey, secret,&quot;xml&quot;);
-</code></pre><h3 id="page_size">短信查询接口：因为page_size值过大报错？</h3>
+</code></pre><h3 id="page_size">&#x77ED;&#x4FE1;&#x67E5;&#x8BE2;&#x63A5;&#x53E3;&#xFF1A;&#x56E0;&#x4E3A;page_size&#x503C;&#x8FC7;&#x5927;&#x62A5;&#x9519;&#xFF1F;</h3>
 <ul>
-<li><code>page_size</code>可设置最大值为<code>50</code></li>
+<li><code>page_size</code>&#x53EF;&#x8BBE;&#x7F6E;&#x6700;&#x5927;&#x503C;&#x4E3A;<code>50</code></li>
 </ul>
-<h2 id="php-sdk">php sdk常见问题</h2>
-<h3 id="fatal-error-class-topclient-not-found">Fatal error: Class &#39;TopClient&#39; not found</h3>
+<h2 id="php-sdk">php sdk&#x5E38;&#x89C1;&#x95EE;&#x9898;</h2>
+<h3 id="fatal-error-class-topclient-not-found">Fatal error: Class &apos;TopClient&apos; not found</h3>
 <ul>
-<li>设置文件和TopSdk.php必须同目录</li>
-<li><code>php5.3</code>版本以下的，需要手动设置 <code>__DIR__</code> 变量为全路径</li>
+<li>&#x8BBE;&#x7F6E;&#x6587;&#x4EF6;&#x548C;TopSdk.php&#x5FC5;&#x987B;&#x540C;&#x76EE;&#x5F55;</li>
+<li><code>php5.3</code>&#x7248;&#x672C;&#x4EE5;&#x4E0B;&#x7684;&#xFF0C;&#x9700;&#x8981;&#x624B;&#x52A8;&#x8BBE;&#x7F6E; <code>__DIR__</code> &#x53D8;&#x91CF;&#x4E3A;&#x5168;&#x8DEF;&#x5F84;</li>
 </ul>
-<h3 id="http-status-code-500">短信发送接口：请求返回<code>http status code 500</code></h3>
+<h3 id="http-status-code-500">&#x77ED;&#x4FE1;&#x53D1;&#x9001;&#x63A5;&#x53E3;&#xFF1A;&#x8BF7;&#x6C42;&#x8FD4;&#x56DE;<code>http status code 500</code></h3>
 <ul>
-<li>需设置php文件编码为<code>utf-8</code></li>
+<li>&#x9700;&#x8BBE;&#x7F6E;php&#x6587;&#x4EF6;&#x7F16;&#x7801;&#x4E3A;<code>utf-8</code></li>
 </ul>
-<h2 id="nodejs-sdk">nodejs sdk常见问题</h2>
+<h2 id="nodejs-sdk">nodejs sdk&#x5E38;&#x89C1;&#x95EE;&#x9898;</h2>
 <ul>
-<li>暂无</li>
+<li>&#x6682;&#x65E0;</li>
 </ul>
-
+<div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#sdk'>SDK</a></li><ul><li><a href='#java-sdk'>java sdk常见问题</a></li><ul><li><a href='#taobaoclient'>短信发送接口：无法在创建TaobaoClient对象的时候设置返回参数格式？</a></li><li><a href='#page_size'>短信查询接口：因为page_size值过大报错？</a></li></ul><li><a href='#php-sdk'>php sdk常见问题</a></li><ul><li><a href='#fatal-error-class-topclient-not-found'>Fatal error: Class 'TopClient' not found</a></li><li><a href='#http-status-code-500'>短信发送接口：请求返回http status code 500</a></li></ul><li><a href='#nodejs-sdk'>nodejs sdk常见问题</a></li></ul></ul></div><a href='#sdk' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
                 
