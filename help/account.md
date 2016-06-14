@@ -10,11 +10,11 @@
 - 为了便于开发者测试，您可以用个人账号完成入驻，使用代金券测试，体验服务效果。然后使用企业账号正式开发，付费使用。 
 
 ## 3. 如何成为个人开发者？
-- 注册淘宝帐号或使用已有的淘宝帐号，完成[入驻阿里大鱼](http://www.alidayu.com/join/1)成功即可成为个人用户。 
+- 注册淘宝帐号或使用已有的淘宝帐号，完成[入驻阿里大鱼](http://www.alidayu.com/settled)成功即可成为个人用户。 
 
 ## 4. 如何成为企业开发者？
-1. 通过[支付宝官网注册企业支付宝账号](https://memberprod.alipay.com/account/reg/enterpriseIndex.htm)注册企业支付宝账号并完成企业实名认证，通过实名认证后使用该支付宝账号[入驻阿里大鱼](http://www.alidayu.com/join/1)即可成为企业用户。   
-2. 如已有通过支付宝企业实名认证的账号，可直接使用该账号[入驻阿里大鱼](http://www.alidayu.com/join/1)。 
+1. 通过[支付宝官网注册企业支付宝账号](https://memberprod.alipay.com/account/reg/enterpriseIndex.htm)注册企业支付宝账号并完成企业实名认证，通过实名认证后使用该支付宝账号[入驻阿里大鱼](http://www.alidayu.com/settled)即可成为企业用户。   
+2. 如已有通过支付宝企业实名认证的账号，可直接使用该账号[入驻阿里大鱼](http://www.alidayu.com/settled)。 
 
 ## 5. 可以使用阿里云/支付宝账号登录吗？
 - 可以，阿里大鱼支持淘宝账号，阿里云账号，支付宝账号登陆并完成入驻。   
