@@ -22,26 +22,18 @@ var insertAnchors = function(section) {
                     });
                     break;
                 case "h2":
-                    if(array[array.length-1] && array[array.length-1].children) {
-                        array[array.length-1].children.push({
-                            name: header.text(),
-                            url: id,
-                            children: []
-                        });
-                    }
+                    array[array.length-1].children.push({
+                        name: header.text(),
+                        url: id,
+                        children: []
+                    });
                     break;
                 case "h3":
-                    if (array[array.length - 1] &&
-                        array[array.length - 1].children &&
-                        array[array.length-1].children[array[array.length-1].children.length-1] &&
-                        array[array.length-1].children[array[array.length-1].children.length-1].children) {
-                        array[array.length-1].children[array[array.length-1].children.length-1].children.push({
-                            name: header.text(),
-                            url: id,
-                            children: []
-                        });
-                    }
-
+                    array[array.length-1].children[array[array.length-1].children.length-1].children.push({
+                        name: header.text(),
+                        url: id,
+                        children: []
+                    });
                     break;
                 default:
                     break;
@@ -88,7 +80,9 @@ module.exports = {
     },
     hooks: {
         "page": function (page) { // before html generation
+
             _.forEach(page.sections, insertAnchors);
+
             return page;
         }
     }
