@@ -1,10 +1,9 @@
 # 应用开发 Develop
 
-## 1. 根据开发语言选择板本生成对应SDK
-- 控制台－SDK下载，请获取权限后再生成SDK（大概需3分钟）
-- 支持[JAVA、PHP、Python、 .NET、 Metadata、 nodejs](http://open.taobao.com/doc2/detail.htm?articleId=101618&docType=1&treeId=1)
+## 1. 进入管理中心，在左侧导航栏中找到“应用管理-SDK下载”
+- 下载阿里大鱼SDK，[支持JAVA、PHP、Python、 .NET、 Metadata、 nodejs](http://doc.alidayu.com/doc2/detail.htm?articleId=101618&docType=1&treeId=1)
 
-[![Image](http://img.alicdn.com/tps/TB1FlbiJVXXXXcJXXXXXXXXXXXX-1440-476.png)](http://img.alicdn.com/tps/TB1FlbiJVXXXXcJXXXXXXXXXXXX-1440-476.png)
+[![Image](http://img.alicdn.com/top/i1/LB1jh4sKFXXXXauXFXXXXXXXXXX)](http://img.alicdn.com/top/i1/LB1jh4sKFXXXXauXFXXXXXXXXXX)
 
 ## 2. 下载sdk，将SDK导入您的应用开发工程
 - [SDK下载地址](http://open.taobao.com/doc2/detail.htm?articleId=101618&docType=1&treeId=1)
@@ -27,6 +26,6 @@
 
 [![Image](http://img.alicdn.com/tps/TB1dgiPLVXXXXcnXXXXXXXXXXXX-856-918.jpg)](http://img.alicdn.com/tps/TB1dgiPLVXXXXcnXXXXXXXXXXXX-856-918.jpg)
 
-## 4. 在API文档中查看调用示例与传参规则
+## 4. 在[API文档](https://api.alidayu.com/doc2/apiList.htm)中查看调用示例与传参规则
 
 [![Image](http://img.alicdn.com/tps/TB1sISRLVXXXXbVXXXXXXXXXXXX-1439-717.jpg)](http://img.alicdn.com/tps/TB1sISRLVXXXXbVXXXXXXXXXXXX-1439-717.jpg)
