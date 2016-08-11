@@ -1,16 +1,16 @@
 # 发送第一条测试短信 Test Sms
 
-## 1. 阿里大鱼SDK短信API调用代码示例
+## 1. 阿里大于SDK短信API调用代码示例
 
 ### 1.1 请求参数
-- 详细请参见[阿里大鱼短信API-请求参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s1)
+- 详细请参见[阿里大于短信API-请求参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s1)
 
 ### 1.2 开发者请求示例
 
 - java
 
 ```java
-//引入阿里大鱼SDK
+//引入阿里大于SDK
 import com.taobao.api.DefaultTaobaoClient;
 import com.taobao.api.request.AlibabaAliqinFcSmsNumSendRequest;
 import com.taobao.api.request.AlibabaAliqinFcSmsNumSendResponse;
@@ -21,8 +21,8 @@ AlibabaAliqinFcSmsNumSendRequest req = new AlibabaAliqinFcSmsNumSendRequest();
 
 req.setExtend("123456");
 req.setSmsType("normal");
-req.setSmsFreeSignName("阿里大鱼");
-req.setSmsParamString("{\"code\":\"888888\",\"product\":\"阿里大鱼(http://www.alidayu.com)\",\"item\":\"阿里大鱼\"}");
+req.setSmsFreeSignName("阿里大于");
+req.setSmsParamString("{\"code\":\"888888\",\"product\":\"阿里大于(http://www.alidayu.com)\",\"item\":\"阿里大于\"}");
 //请填写需要接收的手机号码
 req.setRecNum("13000000000");
 //短信模板id
@@ -36,7 +36,7 @@ System.out.println(rsp.getBody());
 - php
 
 ```php
-//引入阿里大鱼SDK
+//引入阿里大于SDK
 include "alidayu-openapi-php-sdk/TopSdk.php";
 
 $c = new TopClient;
@@ -48,8 +48,8 @@ $c->secretKey = "your_app_secret";
 $req = new AlibabaAliqinFcSmsNumSendRequest;
 $req->setExtend("123456");
 $req->setSmsType("normal");
-$req->setSmsFreeSignName("阿里大鱼");
-$req->setSmsParam("{\"code\": \"888888\", \"product\": \"阿里大鱼(http://www.alidayu.com)\"}");
+$req->setSmsFreeSignName("阿里大于");
+$req->setSmsParam("{\"code\": \"888888\", \"product\": \"阿里大于(http://www.alidayu.com)\"}");
 //请填写需要接收的手机号码
 $req->setRecNum("your_phone_number");
 //短信模板id
@@ -63,7 +63,7 @@ $resp = $c->execute($req);
   - 待补充
 
 
-### 1.3 阿里大鱼服务端返回示例
+### 1.3 阿里大于服务端返回示例
 
 - 成功
 
@@ -93,10 +93,10 @@ $resp = $c->execute($req);
 }
 ```
 
-- 详细请参见[阿里大鱼短信API-响应参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s2)
+- 详细请参见[阿里大于短信API-响应参数](http://open.taobao.com/doc2/apiDetail?apiId=25450#s2)
 
 ### 1.4 错误码解释
-- 详细请参见[阿里大鱼短信API-错误码解释](http://open.taobao.com/doc2/apiDetail?apiId=25450#s6)
+- 详细请参见[阿里大于短信API-错误码解释](http://open.taobao.com/doc2/apiDetail?apiId=25450#s6)
 
 ### 1.5 常用开发工具
 - [API测试工具](http://open.taobao.com/apitools/apiTools.htm?catId=20711&apiId=25450&apiName=alibaba.aliqin.fc.sms.num.send&scopeId=)

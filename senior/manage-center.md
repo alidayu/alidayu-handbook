@@ -1,6 +1,6 @@
 # 管理中心 Manage
 
-阿里大鱼[管理中心](http://www.alidayu.com/admin/user/account)主要为开发者提供以下功能
+阿里大于[管理中心](http://www.alidayu.com/admin/user/account)主要为开发者提供以下功能
 
 ## 用户中心 User
 - [账户管理](http://www.alidayu.com/admin/user/account)

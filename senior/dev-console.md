@@ -1,6 +1,6 @@
 # 开发者控制台 Console
 
-阿里大鱼[开发者控制台](http://my.open.taobao.com/)主要为开发者提供应用管理功能，包括以下子功能。
+阿里大于[开发者控制台](http://my.open.taobao.com/)主要为开发者提供应用管理功能，包括以下子功能。
 
 ## 概览 Sumary
 - 查看、重置APP Key / APP Secret
