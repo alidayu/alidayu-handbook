@@ -40,7 +40,7 @@
 | isv.QUERY_DATE_ILLEGAL | 查询时间非法 | 支持近30天记录查询。 |
 | isv.SPLIT_PAGE_ILLEGAL | 分页参数不合法 | 每页最大显示50条记录 |
 | isv.INVALID_PARAMETERS | 参数异常 | 检查参数合法性 |
-| isv.ACCOUNT_NOT_EXISTS | 账户信息不存在 | 入驻阿里大鱼 |
+| isv.ACCOUNT_NOT_EXISTS | 账户信息不存在 | 入驻阿里大于 |
 
 ## 语音 Voice
 | 状态值     | 状态含义   |  错误描述  |
@@ -89,9 +89,9 @@
 ## alibaba.aliqin.fc.tts.num.singlecall (文本转语音通知)
 | 错误码 | 错误描述 | 解决方案 |
 | --- | --- | --- |
-| isv.OUT_OF_SERVICE | 业务停机 | 请登录阿里大鱼充值 |
-| isv.PRODUCT_UNSUBSCRIBE | 未开通产品服务 | 请登录阿里大鱼开通相应产品服务 |
-| isv.ACCOUNT_NOT_EXISTS | 账户信息不存在 | 请登录阿里大鱼完成入驻 |
+| isv.OUT_OF_SERVICE | 业务停机 | 请登录阿里大于充值 |
+| isv.PRODUCT_UNSUBSCRIBE | 未开通产品服务 | 请登录阿里大于开通相应产品服务 |
+| isv.ACCOUNT_NOT_EXISTS | 账户信息不存在 | 请登录阿里大于完成入驻 |
 | isv.ACCOUNT_ABNORMAL | 账户信息异常 | 请联系技术支持 |
 | isv.MOBILE_NUMBER_ILLEGAL | 手机号码格式不合法 | 请使用合法的手机号码 |
 | isv.TTS_TEMPLATE_ILLEGAL | 文本转语音模板不合法 | 请使用合法的文本转语音模板。登录www.alidayu.com查看已审核通过的文本转语音模板。 |

@@ -1,7 +1,7 @@
 # 应用开发 Develop
 
 ## 1. 进入管理中心，在左侧导航栏中找到“应用管理-SDK下载”
-- 下载阿里大鱼SDK，[支持JAVA、PHP、Python、 .NET、 Metadata、 nodejs](http://doc.alidayu.com/doc2/detail.htm?articleId=101618&docType=1&treeId=1)
+- 下载阿里大于SDK，[支持JAVA、PHP、Python、 .NET、 Metadata、 nodejs](http://doc.alidayu.com/doc2/detail.htm?articleId=101618&docType=1&treeId=1)
 
 [![Image](http://img.alicdn.com/top/i1/LB1jh4sKFXXXXauXFXXXXXXXXXX)](http://img.alicdn.com/top/i1/LB1jh4sKFXXXXauXFXXXXXXXXXX)
 

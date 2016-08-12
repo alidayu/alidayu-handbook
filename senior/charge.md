@@ -1,6 +1,6 @@
 # 充值
 
-## 进入`阿里大鱼>管理中心>账户管理`即可进行充值
+## 进入`阿里大于>管理中心>账户管理`即可进行充值
 
 [![image](http://img.alicdn.com/tps/TB10B4yLVXXXXczXVXXXXXXXXXX-994-398.jpg)](http://img.alicdn.com/tps/TB10B4yLVXXXXczXVXXXXXXXXXX-994-398.jpg)
 

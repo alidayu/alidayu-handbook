@@ -14,7 +14,7 @@
   "homepage": "https://github.com/yaneryou/gitbook-plugin-anchor-navigation",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaneryou/gitbook-plugin-anchor-navigation.git"
+    "url": "git+https://github.com/yaneryou/gitbook-plugin-anchor-navigation.git"
   },
   "dependencies": {
     "cheerio": "*",
@@ -42,12 +42,9 @@
   ],
   "dist": {
     "shasum": "f2c9247f3c013ad5982931a75f4ef57348c6ec99",
-    "size": 1650,
-    "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/gitbook-plugin-anchor-navigation/download/gitbook-plugin-anchor-navigation-0.0.1.tgz"
+    "tarball": "https://registry.npmjs.org/gitbook-plugin-anchor-navigation/-/gitbook-plugin-anchor-navigation-0.0.1.tgz"
   },
   "directories": {},
-  "publish_time": 1438764934329,
-  "_cnpm_publish_time": 1438764934329,
-  "_resolved": "https://registry.npm.taobao.org/gitbook-plugin-anchor-navigation/download/gitbook-plugin-anchor-navigation-0.0.1.tgz"
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-anchor-navigation/-/gitbook-plugin-anchor-navigation-0.0.1.tgz",
+  "readme": "ERROR: No README data found!"
 }

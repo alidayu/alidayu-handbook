@@ -1,4 +1,4 @@
-* [关于阿里大鱼](about/index.md)
+* [关于阿里大于](about/index.md)
 * [快速开始](start/index.md)
   - [成为开发者](start/developer-reg.md)
   - [应用创建](start/app-create.md)
